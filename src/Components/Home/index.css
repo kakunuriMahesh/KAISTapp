@@ -1,0 +1,504 @@
+.container{
+    background-color: #000000;
+    height: 80%;
+    text-align: center;
+}
+.home{
+    padding: 50px;
+}
+.heading{
+    color: #ffffff;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.core-features{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+p{
+    color: #757575;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    width: 150px;
+    height: 100px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.login{
+    color: #3577F5;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.signup{
+    color: #3577F5;
+    border-color: #3577F5;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-link{
+    color: #3577F5;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.toggle-button{
+    display: none;
+}
+.play-store{
+    background-color: #3577F5;
+    outline: none;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.play-store-icon{
+    margin-right: 5px;
+}
+
+.app-store{
+    background-color: #3577F5;
+    outline: none;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.app-store-icon{
+    margin-right: 5px;
+}
+/* .down-arrow{
+    color: #3577F5;
+    width: 30px !important;
+    height: 30px !important;
+} */
+
+.sub-card-img{
+    /* width:50px ;
+    height: 50px; */
+    background: #33aa71;
+    padding: 20px;
+    border-radius: 15px;
+    /* opacity:0.25; */
+}
+.sub-card-img-gift{
+    background: #33aa71;
+    padding: 20px;
+    border-radius: 15px;
+    height: 35px;
+    width: 35px;
+}
+.card-align{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.main-card-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    /* text-align: center; */
+    width: 30%;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+    align-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    /* background-color: #9da0a1;
+    opacity: 0.0 - 1.0; */
+    width: 90px;
+    height: 90px;
+    margin-bottom: 50px;
+    /* margin-right:10px; */
+
+}
+.card-para{
+    color: #ffffff;
+    font-size: 10px;
+}
+.boot-container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boot-content{
+    text-align: left;
+    width: 50vh;
+}
+.boot-heading{
+    color: #ffffff;
+    margin: 0px;
+    font-size: 15px;
+}
+.boot-para-1{
+    /* text-align: right; */
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.boot-img{
+    height: 150px;
+    margin-left: 20px;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.boot-link{
+    color: #3577F5;
+    text-decoration: none;
+    /* margin-right: 25px; */
+}
+.arrow-icon{
+    color: #3577F5;
+}
+.featured-head{
+    color: #ffffff;
+    font-size:medium;
+}
+.course-main-card-container{
+        padding-right: 70px;
+        padding-left: 70px;
+        /* width: 30%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.courses-card-container{
+    width: 30%;
+    background-color: #172033;
+    border-radius: 30px;
+    margin: 15px;
+
+}
+.course-min-card{
+    background-image: linear-gradient(to bottom, rgb(155, 226, 149) , rgb(70, 123, 136));
+    border-radius:30px ;
+    padding-top: 15px;
+}
+.enrolled-tag{
+    color: #ffffff;
+    font-size: medium;
+    background-color: #ceb008;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-box-align{
+    margin-left: 15px;
+}
+.course-img{
+    width: 150px;
+    height: 150px;
+}
+.course-heading{
+    color: #ffffff;
+}
+.course-para{
+    color: #ffffff;
+}
+.flex-box-align{
+    text-align: left;
+}
+.course-details{
+    text-align: left;
+    padding: 20px;
+}
+.course-name{
+    color: #ffffff;
+}
+.course-duration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.play-button{
+    color: #ffffff;
+    margin-right: 10px;
+}
+.time{
+    color: #ffffff;
+}
+.course-price{
+    color: #ffffff;
+}
+.buy-now{
+    width: 100%;
+    background-color: #3577F5;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.view-more{
+    color: #ffffff;
+    border-color: #3577F5;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin: 15px;
+}
+.benefits{
+    color: #ffffff;
+}
+.benefits-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits-head{
+    color: #ffffff;
+}
+.benefits-para{
+    color: #ffffff;
+}
+.benefits-img-1{
+    display: flex;
+    order: -1;
+}
+.benefits-img{
+    display: flex;
+    order: 1;
+}
+.more-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+    align-items: center;
+}
+.more{
+    margin: 15px;
+}
+.more-para{
+    color: #ffffff;
+}
+.chat-more-container{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+.chat-img{
+    margin-right: 50px;
+}
+.heading-chat{
+    color: #ffffff;
+}
+.mail-container{
+    text-align: left;
+}
+input{
+    outline: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    background-color: #3577F5;
+    padding: 40px;
+}
+.footer-1{
+    text-align: left;
+}
+.footer-2{
+    text-align: left;
+}
+.footer-3{
+    text-align: left;
+}
+.footer-4{
+    text-align: left;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+}
+.footer-logo{
+    margin-bottom:5px ;
+}
+.footer-logo-bottom-line{
+    width: 120px;
+}
+.footer-para{
+    color: #ffffff;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-small;
+}
+.social-icon{
+    color: #ffffff;
+}
+.footer-head{
+    color: #ffffff;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-nav{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .toggle-button{
+        display: flex;
+        flex-direction: column;
+    }
+    .line{
+        background-color: #ffffff;
+        width: 20px;
+        margin: 3px;
+        padding: 1px;
+    }
+    .line-bottom{
+        background-color: #ffffff;
+        width: 12px;
+        margin: 3px;
+        padding: 1px;
+    }
+    .card-container{
+        /* text-align: center; */
+        width: 50%;
+        display: flex;
+        /* flex-direction: row;
+        justify-content: center; */
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .boot-container{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .boot-content{
+        text-align: center;
+        /* width: 50vh; */
+    }
+    .arrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        /* justify-content: center; */
+    }
+    .featured-head{
+        color: #ffffff;
+        font-size:medium;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* justify-content: space-between; */
+        height: 20%;
+        background-color: #3577F5;
+        padding: 40px;
+    }
+    .logo-container{
+        display: flex;
+        width: 100%;
+    }
+    .footer-1{
+        text-align: center;
+    }
+    .footer-2{
+        text-align: center;
+    }
+    .footer-3{
+        text-align: center;
+    }
+    .footer-4{
+        text-align: center;
+    }
+    .course-main-card-container{
+        padding-right: 70px;
+        padding-left: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .courses-card-container{
+        width: 100%;
+        margin:15px;
+    }
+    .benefits-container-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 70px;
+        padding-right: 70px;
+        margin: 15px;
+    }
+    .benefits-img{
+        height: 150px;
+        width: 250px;
+        align-self: center;
+    }
+    .benefits-img-1{
+        display: flex;
+        align-self: center;
+        order: 1;
+        height: 150px;
+        width: 250px;
+    }
+    .more-container{
+        /* width: 70%; */
+        
+    }
+    .chat-img{
+        margin: 0px;
+        height: 200px;
+        width: 150px;
+        display: flex;
+        align-self: center;
+    }
+    .chat-more-container{
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mail-container{
+        text-align: center;
+    }
+}
